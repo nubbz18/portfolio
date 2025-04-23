@@ -12,15 +12,15 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #fff;
-      background-image: url('https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?auto=format&fit=crop&w=1350&q=80');
+      background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1350&q=80');
       background-size: cover;
       background-position: center;
       height: 100vh;
+      color: #fff;
     }
 
     .navbar {
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.75);
       padding: 15px 20px;
       text-align: right;
     }
@@ -47,8 +47,18 @@
       justify-content: center;
       text-align: center;
       height: calc(100vh - 60px);
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.4);
+      padding: 30px 20px;
+      background: rgba(0, 0, 0, 0.5);
+      overflow-y: auto;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 20px;
     }
 
     h1 {
@@ -57,8 +67,10 @@
     }
 
     p {
-      font-size: 1.2rem;
-      max-width: 600px;
+      font-size: 1.1rem;
+      max-width: 800px;
+      line-height: 1.6;
+      margin-bottom: 12px;
     }
   </style>
 </head>
@@ -69,10 +81,18 @@
   </div>
 
   <div class="container">
+    <img src="Headshot.jpg" alt="Nathan Herbst Headshot" class="profile-pic">
     <h1>Hi, I'm Nathan Herbst</h1>
     <p>
-      I'm an MIS undergraduate student at UW-Parkside, graduating in May 2025.
-      I’m passionate about technology, teamwork, and serving others through leadership, creativity, and problem-solving.
+      I'm a Management Information Systems undergraduate student at the University of Wisconsin–Parkside, expected to graduate in May 2025.
+      I have a strong foundation in programming (Visual Basic, C#, SQL), Microsoft applications, and systems thinking — built through hands-on coursework and real-world experience.
+    </p>
+    <p>
+      I bring not only technical knowledge, but also a collaborative spirit and leadership mindset. Over the years, I’ve served in roles ranging from front-of-house service and facilities management to worship leadership and creative arts direction.
+      Whether leading teams, training new employees, or managing event logistics, I aim to bring excellence, empathy, and efficiency to everything I do.
+    </p>
+    <p>
+      I'm currently seeking opportunities to grow within the IT and business space — and excited to contribute to organizations that value innovation, integrity, and service.
     </p>
   </div>
 </body>
