@@ -12,10 +12,7 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-image: url('https://images.unsplash.com/photo-1531497865142-487f42e9cbe7?auto=format&fit=crop&w=1350&q=80');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
+      background-color: #000;
       color: #fff;
     }
 
@@ -40,29 +37,35 @@
       background-color: #2980b9;
     }
 
-    .container {
-      padding: 40px 20px;
-      background: rgba(0, 0, 0, 0.6);
-      height: calc(100vh - 60px);
-      overflow-y: auto;
-    }
-
     h1 {
       text-align: center;
-      margin-bottom: 20px;
+      margin: 40px 0 20px;
       font-size: 2.5rem;
     }
 
     .summary {
       max-width: 800px;
-      margin: 0 auto 30px auto;
+      margin: 0 auto 40px auto;
       font-size: 1.1rem;
       line-height: 1.6;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
     }
 
     .section {
-      max-width: 800px;
-      margin: 0 auto 30px auto;
+      padding: 60px 20px;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: auto;
     }
 
     h2 {
@@ -84,16 +87,18 @@
     <a href="experience.html">Experience</a>
   </div>
 
-  <div class="container">
-    <h1>My Skills</h1>
+  <h1>My Skills</h1>
 
-    <div class="summary">
-      <p>
-        Through academic coursework and hands-on professional experience, I’ve developed a diverse skill set across technology, teamwork, and leadership. From learning to write SQL queries to managing large-scale events and mentoring youth, I continuously seek ways to grow and serve with excellence. Below is a breakdown of my most relevant technical and soft skills.
-      </p>
-    </div>
+  <div class="summary">
+    <p>
+      Through academic coursework and hands-on professional experience, I’ve developed a diverse skill set across technology, teamwork, and leadership.
+      From learning to write SQL queries to managing large-scale events and mentoring youth, I continuously seek ways to grow and serve with excellence.
+      Below is a breakdown of my most relevant technical and soft skills.
+    </p>
+  </div>
 
-    <div class="section">
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1581090700227-1e8a799bdf8b?auto=format&fit=crop&w=1350&q=80');">
+    <div class="overlay">
       <h2>📘 Academically Learned Skills</h2>
       <ul>
         <li>Microsoft Access</li>
@@ -111,8 +116,10 @@
         <li>Facilitating team work</li>
       </ul>
     </div>
+  </div>
 
-    <div class="section">
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1581092339484-038077c266a1?auto=format&fit=crop&w=1350&q=80');">
+    <div class="overlay">
       <h2>👔 Professionally Developed Skills</h2>
       <ul>
         <li>Customer service (front-of-house operations)</li>
